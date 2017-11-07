@@ -22,12 +22,8 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".VolumeSetter"
-            android:enabled="true"
-            android:exported="false"/>
         <receiver
-            android:name=".ServiceStarter"
+            android:name=".Service"
             android:enabled="true"
             android:exported="false">
             <intent-filter>

@@ -2,14 +2,11 @@ package eun.initialvolume;
 
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
 
-import java.util.List;
 public class SettingsActivity extends AppCompatActivity {
 
     public SettingsActivity() {}
@@ -27,7 +24,7 @@ public class SettingsActivity extends AppCompatActivity {
         }
 
         IntentFilter filter = new IntentFilter(Intent.ACTION_SCREEN_ON);
-        registerReceiver(new ServiceStarter(), filter);
+        registerReceiver(new Service(), filter);
     }
 
 }

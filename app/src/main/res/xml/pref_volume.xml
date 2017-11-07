@@ -5,7 +5,7 @@
         android:title="General">
         <android.support.v7.preference.CheckBoxPreference
             android:key="@string/pref_set_on_boot"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:title="Set Volume on Boot" />
         <android.support.v7.preference.CheckBoxPreference
             android:key="@string/pref_set_on_screen_on"
