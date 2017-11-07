@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">InitialVolume</string>
+
+    <string name="pref_stream_music_enabled">STREAM_MUSIC_ENABLED</string>
+    <string name="pref_stream_ring_enabled">STREAM_RING_ENABLED</string>
+    <string name="pref_stream_alarm_enabled">STREAM_ALARM_ENABLED</string>
+    <string name="pref_stream_system_enabled">STREAM_SYSTEM_ENABLED</string>
+    <string name="pref_stream_notification_enabled">STREAM_NOTIFICATION_ENABLED</string>
+
+    <string name="pref_stream_music">STREAM_MUSIC</string>
+    <string name="pref_stream_ring">STREAM_RING</string>
+    <string name="pref_stream_alarm">STREAM_ALARM</string>
+    <string name="pref_stream_system">STREAM_SYSTEM</string>
+    <string name="pref_stream_notification">STREAM_NOTIFICATION</string>
+
+    <string name="pref_set_on_boot">SET_ON_BOOT</string>
+    <string name="pref_set_on_screen_on">SET_ON_SCREEN_ON</string>
+
+    <string name="pref_cat_music">Music</string>
+    <string name="pref_cat_ring">Ring</string>
+    <string name="pref_cat_alarm">Alarm</string>
+    <string name="pref_cat_system">System</string>
+    <string name="pref_cat_notification">Notification</string>
+</resources>

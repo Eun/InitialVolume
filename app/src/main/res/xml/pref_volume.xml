@@ -1,0 +1,96 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="General">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_set_on_boot"
+            android:defaultValue="true"
+            android:title="Set Volume on Boot" />
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_set_on_screen_on"
+            android:defaultValue="false"
+            android:title="Set Volume on Screen ON" />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="System"
+        android:key="@string/pref_cat_system">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_stream_system_enabled"
+            android:defaultValue="false"
+            android:title="Enabled" />
+        <android.support.v7.preference.SeekBarPreference
+            android:key="@string/pref_stream_system"
+            android:defaultValue="0"
+            android:max="12"
+            android:title="Volume"
+            android:dependency="@string/pref_stream_system_enabled"
+            />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Music"
+        android:key="@string/pref_cat_music">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_stream_music_enabled"
+            android:defaultValue="false"
+            android:title="Enabled" />
+        <android.support.v7.preference.SeekBarPreference
+            android:key="@string/pref_stream_music"
+            android:defaultValue="0"
+            android:max="12"
+            android:title="Volume"
+            android:dependency="@string/pref_stream_music_enabled"
+            />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Ring"
+        android:key="@string/pref_cat_ring">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_stream_ring_enabled"
+            android:defaultValue="false"
+            android:title="Enabled" />
+        <android.support.v7.preference.SeekBarPreference
+            android:key="@string/pref_stream_ring"
+            android:defaultValue="0"
+            android:max="12"
+            android:title="Volume"
+            android:dependency="@string/pref_stream_ring_enabled"
+            />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Alarm"
+        android:key="@string/pref_cat_alarm">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_stream_alarm_enabled"
+            android:defaultValue="false"
+            android:title="Enabled" />
+        <android.support.v7.preference.SeekBarPreference
+            android:key="@string/pref_stream_alarm"
+            android:defaultValue="0"
+            android:max="12"
+            android:title="Volume"
+            android:dependency="@string/pref_stream_alarm_enabled"
+            />
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Notification"
+        android:key="@string/pref_cat_notification">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="@string/pref_stream_notification_enabled"
+            android:defaultValue="false"
+            android:title="Enabled" />
+        <android.support.v7.preference.SeekBarPreference
+            android:key="@string/pref_stream_notification"
+            android:defaultValue="0"
+            android:max="12"
+            android:title="Volume"
+            android:dependency="@string/pref_stream_notification_enabled"
+            />
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>
